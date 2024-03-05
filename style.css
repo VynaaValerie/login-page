@@ -1,0 +1,16 @@
+/* login fitur by arda code */
+.ardaloginwrap{width:100%;height:100%;position:fixed;left:0;top:0;z-index:9999999999;background:linear-gradient(-45deg,#00A5FF,#8e11b0,#ff1fc3,#22a087);background-size:400% 400%;animation:gradient 10s ease infinite}
+@keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.ardaloginwrap.hidden{display: none}
+#ardalogin{position:absolute;border-radius:8px;width:400px;padding:30px;display:block;transform:translate(-50%,-50%);top:50%;left:50%;background:rgba(255,255,255,0.1);backdrop-filter:blur(5px);border-radius:10px;box-shadow:0 25px 45px rgba(0,0,0,0.2);color:#fff}
+.ardajudul{font-size:25px;font-weight: bold;}
+#ardalogin input[type="text"],#ardalogin input[type="password"]{padding:10px;border-radius:5px;margin:10px 0;width:95%;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.2);color:#fff}
+#username::-webkit-input-placeholder,#password::-webkit-input-placeholder{color:#fff;}
+#ardalogin input[type="text"]:focus,#ardalogin input[type="password"]:focus{outline:none}
+button.login{color:#000;font-weight:bold;padding:10px;border-radius:5px;border:none;outline:none;border: 1px solid rgba(255, 255, 255, 0.2);background:#fff;transition: 1.5s}
+button.login:hover{background: rgba(255, 255, 255, 0.2);color:#fff;transition: .5s}
+.icon1{position:absolute;margin-top:20px;right:55px;z-index: 1}
+.icon2{position:absolute;margin-top:20px;right:55px;opacity: 0}
+svg.arda{width:24px;height::24px;fill:#fff}
+@media screen and (max-width:480px){#ardalogin{width:350px}}
+
